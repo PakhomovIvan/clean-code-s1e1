@@ -6,24 +6,24 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.header img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.header .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
   
-  .aaa {
+  .header {
     text-align: center;
   }
 }
@@ -140,6 +140,7 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
+
 button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
@@ -153,7 +154,7 @@ button.delete img:hover {
 /* Completed */
 
 ul#completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
